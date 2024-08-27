@@ -1,0 +1,11 @@
+package chap04;
+/*
+ * 별그리기
+ */
+public class quiz_2_06 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

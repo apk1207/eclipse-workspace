@@ -1,0 +1,22 @@
+package dao.guest;
+
+import java.sql.Connection;
+
+import dao.common.DataSource;
+
+public class GuestDao {
+	
+	private DataSource dataSource;
+	
+	public GuestDao() throws Exception {
+		this.dataSource = new DataSource();
+	}
+	
+	
+	public int insert(Guest guset) throws Exception {
+		Connection con = dataSource.getConnection();
+		
+		
+		return 0;
+	}
+}

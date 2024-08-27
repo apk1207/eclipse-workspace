@@ -1,0 +1,15 @@
+package dao.guest;
+
+import java.util.Date;
+
+public class GuestDaoTestMain {
+
+	public static void main(String[] args) throws Exception {
+		GuestDao guestDao = new GuestDao();
+		Date now = new Date();
+		guestDao.insert(
+				new Guest(1,"김철수",now,"111-1111","www.king.com","철수의세계","철수의공간"));
+
+	}
+
+}

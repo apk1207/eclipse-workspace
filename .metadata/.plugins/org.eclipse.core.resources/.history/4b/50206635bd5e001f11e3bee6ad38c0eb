@@ -1,0 +1,50 @@
+package statement;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import dao.common.DataSource;
+
+public class PreparedStatementMain {
+
+	public static void main(String[] args) throws Exception {
+		/*
+		이름       널?       유형           
+		-------- -------- ------------ 
+		EMPNO    NOT NULL NUMBER(4)    
+		ENAME             VARCHAR2(10) 
+		JOB               VARCHAR2(9)  
+		MGR               NUMBER(4)    
+		HIREDATE          DATE         
+		SAL               NUMBER(7,2)  
+		COMM              NUMBER(7,2)  
+		DEPTNO            NUMBER(2)  
+		 */
+		
+		String selectSql = "select empno,ename,job,sal,hiredate from emp where sal>=? and sal<=? and job=? or job=?";
+		DataSource dataSource = new DataSource();
+		Connection con = dataSource.getConnection();
+		
+		PreparedStatement pstmt = con.prepareStatement(selectSql);
+		int sal1 = 1000;
+		int sal2 = 4000;
+		String job1 = "SALESMAN";
+		String job2 = "CLERK";
+		
+		pstmt.setInt(1, 1000);
+		pstmt.setInt(2, 4000);
+		pstmt.setString(3, job1);
+		pstmt.setString(4, job2);
+		
+		
+		
+		
+		
+		
+		
+		String insertSql = "insert into emp values(9000,'JUNG','MANAGER',7369,to_date('2000/01/01','YYYY/MM/DD'),3000.34,30,40)";
+		String updateSql = "update emp set sal = sal*1.1 where  empno >= 7369 and empno <= 7600";
+		String deleteSql = "delete from emp where empno = 9000";
+	}
+
+}

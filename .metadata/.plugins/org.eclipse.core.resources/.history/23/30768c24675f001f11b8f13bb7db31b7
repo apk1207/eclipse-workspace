@@ -1,0 +1,1 @@
+insert into product values(10000,'새우깡','새우맛이비려요',2000,sysdate);

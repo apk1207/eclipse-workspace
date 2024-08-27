@@ -1,0 +1,23 @@
+package dao;
+
+import java.io.InputStream;
+import java.util.Properties;
+
+public class PropertiesFileLoadingMain {
+
+	public static void main(String[] args) {
+		/*
+		 * -properties 설정파일을 읽어서 Properties[Map]객체 생성
+		 */
+		Properties properties = new Properties();
+		
+		InputStream fis = PropertiesFileLoadingMain.class.getResourceAsStream("/프로퍼티파일.properties"); 
+		properties.clone();
+		
+		
+		System.out.println("Properties size:"+properties.size());
+		System.out.println(properties);
+		
+	}
+
+}

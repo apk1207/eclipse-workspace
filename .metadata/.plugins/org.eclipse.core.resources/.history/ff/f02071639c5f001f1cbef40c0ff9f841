@@ -1,0 +1,17 @@
+package dao.guest;
+
+import java.util.Date;
+
+public class GuestDaoTestMain {
+
+	public static void main(String[] args) throws Exception {
+		GuestDao guestDao = new GuestDao();
+		Date now = new Date();
+		
+		guestDao.insert(
+				new Guest(guest_no_seq.nextval , '김경호', sysdate, 'guard@naver.com', 'http://', '방명록 사용법', '방명록처럼 사용하시면 됩니다'));
+		
+				
+	}
+
+}

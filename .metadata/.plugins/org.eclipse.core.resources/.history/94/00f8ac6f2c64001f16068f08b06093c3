@@ -1,0 +1,12 @@
+package test;
+
+public class test02 {
+	
+	public static void main(String[] args) {
+		test01.method1();
+		
+		test01 test01 = new test01();
+		test01.num = 9;
+	}
+
+}

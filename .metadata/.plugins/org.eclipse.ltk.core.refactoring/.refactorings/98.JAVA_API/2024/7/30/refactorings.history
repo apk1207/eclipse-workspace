@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;lang.ObjectMatin.java&apos; to &apos;ObjectMain.java&apos;&#x0D;&#x0A;- Original project: &apos;98.JAVA_API&apos;&#x0D;&#x0A;- Original element: &apos;lang.ObjectMatin.java&apos;&#x0D;&#x0A;- Renamed element: &apos;lang.ObjectMain.java&apos;" description="Rename compilation unit &apos;ObjectMatin.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;lang{ObjectMatin.java" name="ObjectMain.java" references="false" stamp="1721613365678" version="1.0"/>
+</session>

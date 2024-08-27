@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class test03_9 {
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		System.out.printf("첫번째 수: ");			
+		double num1 = Double.parseDouble(scan.next());
+		System.out.printf("두번째 수: ");			
+		double num2 = Double.parseDouble(scan.next());
+		
+		System.out.println("--------------");
+		if(num2 == 0 || num2 == 0.0) {
+			System.out.println("결과: 무한대");
+		} else {
+			double result = num1 / num2;			
+			System.out.println("결과: "+result);
+		}
+		
+		
+			
+	}
+
+}

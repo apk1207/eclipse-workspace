@@ -1,0 +1,6 @@
+--select
+select * from emp;
+
+--insert
+
+insert into emp values(9000,'JUNG','MANAGER',7369,to_date('2000/01/01','YYYY/MM/DD'),3000,34,30,40)

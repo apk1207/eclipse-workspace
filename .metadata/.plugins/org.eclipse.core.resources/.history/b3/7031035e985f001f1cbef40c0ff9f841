@@ -1,0 +1,12 @@
+package dao.guest;
+
+public class GuestDaoTestMain {
+
+	public static void main(String[] args) {
+		GuestDao guestDao = new GuestDao();
+		guestDao.insert(
+				new Guest(1,"김철수",sysdate,"111-1111","www.king.com","철수의세계","철수의공간"));
+
+	}
+
+}

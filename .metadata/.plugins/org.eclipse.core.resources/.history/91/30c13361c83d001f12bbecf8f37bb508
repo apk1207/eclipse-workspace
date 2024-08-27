@@ -1,0 +1,62 @@
+
+public class DuoMemberInfoPrint{
+	public static void main(String[] args) {
+		/*
+		 * 1.변수선언
+		 */
+	
+		boolean smoke;
+		char sex, rank;
+		int number, marry;
+		String name, regNo, face;
+		double height; 
+		
+		
+		/*
+		 * 2.변수에 데이타(리터럴)대입
+		 */
+		
+		number = 236514;
+		name = "홍길동";
+		regNo = "201212-3495039";
+		sex = '남';
+		marry = 0;
+		smoke = true;
+		height = 178.3;
+		rank = 'A';
+		face = "상(중)";
+		
+		
+		/*
+		 * 3.변수 데이타 출력
+		 */
+		
+		System.out.println("*************************");
+		System.out.println("회원번호 : "+number);
+		System.out.println("이    름 : "+name);
+		System.out.println("주민번호 : "+regNo);
+		System.out.println("성    별 : "+sex);
+		System.out.println("결혼횟수 : "+marry);
+		System.out.println("흡연여부 : "+smoke);
+		System.out.println("키       : "+height);
+		System.out.println("학    점 : "+rank);
+		System.out.println("용    모 : "+face);
+		System.out.println("*************************");
+		
+		/* 실행화면
+		*************************
+		회원번호 : 236514
+		이    름 : 홍길동
+		주민번호 : 201212-3495039
+		성    별 : 남
+		결혼횟수 : 0
+		흡연여부 : true
+		키       : 178.3
+		학    점 : A
+		용    모 : 상(중)
+		*************************
+		 */
+		
+		
+	}
+}

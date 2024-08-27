@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;12.객체간의관계[상속]-객체형변환/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;11.객체간의관계[상속]-생성자&apos;&#x0D;&#x0A;- Destination element: &apos;12.객체간의관계[상속]-객체형변환/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     AcademyGangsa.java&#x0D;&#x0A;     AcademyStudent.java&#x0D;&#x0A;     AcademyMember.java&#x0D;&#x0A;     AcademyStaff.java" description="Copy compilation units" destination="=12.객체간의관계\[상속\]-객체형변환/src&lt;" element1="/src&lt;{AcademyGangsa.java" element2="/src&lt;{AcademyStudent.java" element3="/src&lt;{AcademyMember.java" element4="/src&lt;{AcademyStaff.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1721369183391" units="4" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;prince.korea&apos; to &apos;president.korea&apos;&#x0D;&#x0A;- Original project: &apos;17.접근제한자[access modifier]&apos;&#x0D;&#x0A;- Original element: &apos;17.접근제한자[access modifier]/src/prince.korea&apos;&#x0D;&#x0A;- Renamed element: &apos;17.접근제한자[access modifier]/src/president.korea&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;prince.korea&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;prince.korea" name="president.korea" qualified="false" references="true" stamp="1721869473139" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package dao.guest;
+
+public class GuestSQL {
+	public static final String GUEST_INSERT = "insert into guest values(guest_no_seq.nextval ,?, ?, ?, ?, ?, ?)";
+}

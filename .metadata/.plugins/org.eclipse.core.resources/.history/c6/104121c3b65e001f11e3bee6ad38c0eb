@@ -1,0 +1,9 @@
+package statement;
+
+public class StatementMain {
+
+	public static void main(String[] args) {
+
+	}
+
+}

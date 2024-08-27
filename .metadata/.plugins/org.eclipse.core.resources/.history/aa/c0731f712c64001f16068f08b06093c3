@@ -1,0 +1,9 @@
+package test;
+
+public class test01 {
+	int num;
+		
+	public static void method1() {
+		
+	}
+}

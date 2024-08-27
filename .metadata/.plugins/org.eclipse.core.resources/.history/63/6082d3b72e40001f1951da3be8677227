@@ -1,0 +1,33 @@
+package com.itwill01.method;
+
+public class BookLibraryMain {
+	public static void main(String[] args) {
+		
+		int no;
+		String name, bookClass, comment;
+		
+		/*
+		 * 책객체생성
+		 */
+		Book book = new Book();
+		
+		
+		/*
+		 * 책정보대입메쏘드호출
+		 */
+		no = 1;
+		name = "나미야 잡화점의 기적";
+		bookClass ="일본소설";
+		comment = "아무도 살지 않는 오래된 잡화점에서 벌어지는 기묘하고 따뜻한 이야기";
+		
+		book.setBookInfo(no, name, bookClass, comment);
+				
+		/*
+		 * 책정보출력메쏘드호출
+		 */
+		
+		book.print();
+		
+		
+	}
+}

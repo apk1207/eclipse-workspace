@@ -1,0 +1,10 @@
+package dao.guest;
+
+public class GuestDao {
+	
+	public int insert(Guest guset) throws Exception {
+		
+		
+		return 0;
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Calculator.java&apos; to &apos;06.제한자[static]/src&apos;&#x0D;&#x0A;- Original project: &apos;99.JAVA_PRACTICE&apos;&#x0D;&#x0A;- Destination element: &apos;06.제한자[static]/src&apos;&#x0D;&#x0A;- Original element: &apos;com.itwill01.method.Calculator.java&apos;" description="Copy compilation unit" destination="=06.제한자\[static\]/src" element1="/src&lt;com.itwill01.method{Calculator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1721114567294" units="1" version="1.0"/>
+</session>

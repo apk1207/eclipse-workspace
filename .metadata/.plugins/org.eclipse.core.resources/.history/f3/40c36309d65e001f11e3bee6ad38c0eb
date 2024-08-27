@@ -1,0 +1,10 @@
+package test;
+
+public class test00 {
+
+	public static void main(String[] args) {
+		System.out.println("-------로또번호 6개생성(중복불가)--------");
+		
+	}
+
+}

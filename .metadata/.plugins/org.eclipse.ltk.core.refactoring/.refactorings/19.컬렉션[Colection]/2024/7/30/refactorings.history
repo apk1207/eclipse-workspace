@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;19.컬렉션[Colection]/src/nogeneric&apos;&#x0D;&#x0A;- Original project: &apos;19.컬렉션[Colection]&apos;&#x0D;&#x0A;- Destination element: &apos;19.컬렉션[Colection]/src/nogeneric&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ArrayListMain.java&#x0D;&#x0A;     Account.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;nogeneric" element1="/src&lt;{ArrayListMain.java" element2="/src&lt;{Account.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1721971719017" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+package chap04;
+/*
+ * 별그리기
+ */
+public class quiz_2_05 {
+
+	public static void main(String[] args) {
+		for(int i=0; i<4; i++) {
+			for(int j=0; j<=i; j++) {
+				System.out.print("*");
+				if(i==j) {
+					System.out.println();
+				}
+			}
+		}
+	}
+
+}

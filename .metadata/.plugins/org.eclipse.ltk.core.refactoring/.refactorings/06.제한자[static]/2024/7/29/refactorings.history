@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;AccountConstructorMain.java&apos; to &apos;AccountStaticMain.java&apos;&#x0D;&#x0A;- Original project: &apos;06.제한자[static]&apos;&#x0D;&#x0A;- Original element: &apos;AccountConstructorMain.java&apos;&#x0D;&#x0A;- Renamed element: &apos;AccountStaticMain.java&apos;" description="Rename compilation unit &apos;AccountConstructorMain.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{AccountConstructorMain.java" name="AccountStaticMain.java" references="false" stamp="1721114311409" version="1.0"/>
+</session>
