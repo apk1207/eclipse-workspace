@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ParentInterface"/>
-    <fullyQualifiedTypeName name="java.io.FilterOutputStream"/>
-    <fullyQualifiedTypeName name="MainThreadCalled"/>
     <fullyQualifiedTypeName name="CreateCustomThreadMain"/>
     <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
     <fullyQualifiedTypeName name="ControlSleepThread"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="dao.guest.GuestSQL"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="chap07.quiz_3_3.httpServlet"/>
+    <fullyQualifiedTypeName name="chap07.quiz_3_3.LoginServlet"/>
+    <fullyQualifiedTypeName name="chap07.quiz_3_3.FileDownloadServlet"/>
 </qualifiedTypeNameHistroy>

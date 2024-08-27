@@ -1,9 +1,0 @@
-package dao.address.statement.copy;
-
-public class StatementMain {
-
-	public static void main(String[] args) {
-
-	}
-
-}
